@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Meraaz - Portfolio</title>
+    <meta name="description" content="Software Developer & Cybersecurity Enthusiast">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <a href="#home">Mohd Meraaz</a>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Theme Toggle and Hamburger -->
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="images/profileIMG.jpg" alt="Mohd Meraaz" class="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Mohd Meraaz</span></h1>
+                    <h2 class="hero-subtitle">
+                        <span id="typingText" class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                       A final-year CSE (AI & ML) engineering student with a strong passion for Android App Development and Cybersecurity. Enthusiastic about analyzing data, exploring security vulnerabilities, and creating innovative tech solutions that make an impact.
+                    </p>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="assets/resume.pdf" class="btn btn-outline" download>Download Resume</a>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com/MdMeraaz08/" target="_blank" aria-label="GitHub">
+                            <img src="icons/github.svg" alt="GitHub">
+                        </a>
+                       <a href="https://www.linkedin.com/in/mohdmeraaz08" target="_blank" aria-label="LinkedIn">
+                            <img src="icons/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://x.com/MohdMeraaz08" target="_blank" aria-label="Twitter">
+                            <img src="icons/twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="mailto:meraaz0809@gmail.com" aria-label="Email">
+                            <img src="icons/email.svg" alt="Email">
+
+                        </a>
+
+                        <a href="https://www.instagram.com/mohdmeraaz08/" target="_blank" aria-label="Instagram">
+                            <img src="icons/instagram.svg" alt="Instagram">
+                        </a>
+
+                        <a href="https://buymeacoffee.com/mohdmeraaz" target="_blank" aria-label="Buy Me a Coffee">
+                            <img src="icons/buymeacoffee.svg" alt="Buy Me a Coffee">
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+            
+            <div class="skills-container">
+                <!-- Android Development Skills -->
+<div class="skill-category">
+    <h3 class="category-title">Android Development</h3>
+    <div class="skill-list">
+        <div class="skill-item" data-skill="Kotlin" data-level="90">
+            <div class="skill-info">
+                <span class="skill-name">Kotlin</span>
+                <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="skill-item" data-skill="Jetpack Compose" data-level="85">
+            <div class="skill-info">
+                <span class="skill-name">Jetpack Compose</span>
+                <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="skill-item" data-skill="XML" data-level="80">
+            <div class="skill-info">
+                <span class="skill-name">XML</span>
+                <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Data Analysis Skills -->
+<div class="skill-category">
+    <h3 class="category-title">Data Analysis</h3>
+    <div class="skill-list">
+        <div class="skill-item" data-skill="Python" data-level="85">
+            <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="skill-item" data-skill="Pandas" data-level="80">
+            <div class="skill-info">
+                <span class="skill-name">Pandas</span>
+                <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="skill-item" data-skill="Matplotlib" data-level="75">
+            <div class="skill-info">
+                <span class="skill-name">Matplotlib</span>
+                <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cybersecurity Skills -->
+<div class="skill-category">
+    <h3 class="category-title">Cybersecurity</h3>
+    <div class="skill-list">
+        <div class="skill-item" data-skill="Networking Basics" data-level="80">
+            <div class="skill-info">
+                <span class="skill-name">Networking Basics</span>
+                <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="skill-item" data-skill="Nmap" data-level="75">
+            <div class="skill-info">
+                <span class="skill-name">Nmap</span>
+                <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="skill-item" data-skill="Linux (Kali)" data-level="70">
+            <div class="skill-info">
+                <span class="skill-name">Linux (Kali)</span>
+                <span class="skill-percentage">70%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3 class="category-title">Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="Python" data-level="85">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="C++" data-level="70">
+                            <div class="skill-info">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="SQL" data-level="70">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Platforms</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="Git" data-level="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="VS Code" data-level="95">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Linux" data-level="80">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Curriculum -->
+                <div class="skill-category">
+                    <h3 class="category-title">Technical Curriculum</h3>
+                    <div class="skill-list">
+                        
+                        <div class="skill-item" data-skill="Data Structures & Algorithms" data-level="85">
+                            <div class="skill-info">
+                                <span class="skill-name">Data Structures & Algorithms</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Cloud Computing" data-level="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Cloud Computing</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">A showcase of my work and expertise</p>
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cpp">C++ Projects</button>
+                <button class="filter-btn" data-filter="python">Python Projects</button>
+                <button class="filter-btn" data-filter="development">Development Projects</button>
+                <!-- <button class="filter-btn" data-filter="cybersecurity">Cybersecurity Projects</button> -->
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid">
+                
+
+                <!-- Python Project 1  -->
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="images/projects/inventorymgmt/banner.jpg" alt="Inventory Management System">
+                        <!-- <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="Projects/Inventory-Management-System.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/inventoryManagementSystem.git" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Inventory Management System</h3>
+                        <p class="project-description">A Python-based system to manage product inventory, track sales, and generate detailed purchase receipts with discount support.</p>
+        
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JSON</span>
+                            <span class="tech-tag">File Handling</span>
+                            <span class="tech-tag">PDF Generation</span>
+                        </div>
+                        <br>
+                         <div class="project-actions">
+                                <a href="Certification/src/inventoryManagementSystem.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/inventoryManagementSystem.git" target="_blank" class="btn btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- C++ Project 1  -->
+                <div class="project-card" data-category="cpp">
+                    <div class="project-image">
+                        <img src="images/projects/DSA-Toolkit/array.jpg" alt="Game Engine">
+                        <!-- <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="Projects/DSA-Toolkit.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/DSA-Toolkit-C-.git" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DSA Toolkit (C++ Terminal App)</h3>
+                        <p class="project-description">A powerful terminal-based C++ application that provides interactive operations on core data structures like Arrays, Stacks, Queues, and Linked Lists. Features include sorting algorithms, undo functionality using stacks, and dynamic data display—all without using STL.</p>
+          
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">OOP</span>
+                        </div>
+                        <br>
+                         <div class="project-actions">
+                               <a href="Certification/src/DSAToolkit.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/DSA-Toolkit-C-.git" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                    </div>
+                </div>
+
+                 <!-- Python Project 2  -->
+                <div class="project-card" data-category="python">
+                    <div class="project-image">
+                        <img src="images/projects/HospitalManagementSystem/hospital-banner.jpg" alt="Inventory Management System">
+                        <!-- <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="Projects/Hospital-Management-System.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/Hospital-Management-System.git" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hospital Management System - Care With Love</h3>
+                        <p class="project-description"> A comprehensive hospital management system designed to streamline patient care, appointment scheduling, and medical record management with a focus on compassion and efficiency.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">Healthcare Prototyping</span>
+                            <span class="tech-tag">Patient-Centric Design</span>
+                            <span class="tech-tag">Wireframing</span>
+                        </div>
+                        <br>
+                        <div class="project-actions">
+                                <a href="Certification/src/hospitalManagementSystem.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/Hospital-Management-System.git" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                    </div>
+                </div>
+
+                 <!-- C++ Project 2  -->
+                <div class="project-card" data-category="cpp">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Game Engine">
+                        <!-- <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="project1.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Contact Management System (C++)</h3>
+                        <p class="project-description"> A command-line application for managing contacts. Features include adding, searching, and validating contacts, along with file I/O and robust error handling.</p>
+        
+          
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+            <span class="tech-tag">File I/O</span>
+            <span class="tech-tag">Exception Handling</span>
+                        </div>
+                        <br>
+                         <div class="project-actions">
+                                <a href="Certification/src/contactManagementSystem.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com/MdMeraaz08/Contact-Management-System-C-.git" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- Project 1 -->
+                <div class="project-card" data-category="development">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=500" alt="E-commerce Website">
+                        <!-- <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="project1.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Adding Soon</h3>
+                        <p class="project-description">Description will be added soon.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Room DB</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <br>
+                         <div class="project-actions">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <!-- <div class="project-card" data-category="cybersecurity">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Security Scanner">
+                        <!-- <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="project2.html" class="btn btn-primary">View Details</a>
+                                <a href="https://github.com" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                        </div> -->
+                     <!-- </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Adding Soon   </h3>
+                        <p class="project-description">Description of this project will be added soon.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Nmap</span>
+                            <span class="tech-tag">Scapy</span>
+                        </div>
+                        <br>
+                         <div class="project-actions">
+                                <a href="#" class="btn btn-primary">View Details</a>
+                                <a href="#" target="_blank" class="btn btn-outline">GitHub</a>
+                            </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional certifications and achievements</p>
+            
+            <!-- Certification Filters -->
+            <div class="cert-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="recognized">Recognized Certifications</button>
+                <button class="filter-btn" data-filter="participation">Certificates of Participation</button>
+            </div>
+            
+            <!-- Certifications Grid -->
+            <div class="certifications-grid" id="certificationsGrid">
+                <!-- Recognized Certification 1 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/microsoft-azure.jpg" alt="Microsoft Azure Certificate">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Microsoft Azure Fundamentals</h3>
+                        <p class="cert-platform">Microsoft</p>
+                        <p class="cert-date">Completed: 14 April 2025 </p>
+                        <a href="Certification/recognized/Microsoft-Azure-Fundamentals.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Recognized Certification 2 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/csa.jpg" alt="ServiceNow CSA Certificate">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">ServiceNow Certified System Administrator</h3>
+                        <p class="cert-platform">ServiceNow</p>
+                        <p class="cert-date">Completed: 26th May 2025</p>
+                        <a href="Certification/recognized/Certified-Software-Engineer.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Recognized Certification 3 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/awsCloudFoundations.png" alt="AWS Academy Cloud Foundations">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">AWS Academy Cloud Foundations</h3>
+                        <p class="cert-platform">Amazon</p>
+                        <p class="cert-date">Completed: 24 May 2025</p>
+                        <a href="Certification/recognized/AWS-Academy-Cloud-Foundations.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Recognized Certification 4 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/SoftwareEngineer-Hackerrank.jpg" alt="AWS Academy Cloud Foundations">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Certified Software Engineer – HackerRank</h3>
+                        <p class="cert-platform">HackerRank</p>
+                        <p class="cert-date">Completed: 16 May, 2025</p>
+                        <a href="Certification/recognized/Certified-Software-Engineer.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Recognized Certification 5 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/certificate-sql_intermidiate.jpg" alt="AWS Academy Cloud Foundations">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">SQL  – Certified</h3>
+                        <p class="cert-platform">HackerRank</p>
+                        <p class="cert-date">Completed: 16 May, 2025</p>
+                        <a href="Certification/recognized/HackerRank-SQL–Certified.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Recognized Certification 6 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/certificate-java_basics.jpg" alt="AWS Academy Cloud Foundations">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Java (Basic) – HackerRank Certified</h3>
+                        <p class="cert-platform">HackerRank</p>
+                        <p class="cert-date">Completed: 27 March, 2024</p>
+                        <a href="Certification/recognized/Java(Basic)–HackerRank-Certified.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Recognized Certification 7 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/certificate-python.jpg" alt="AWS Academy Cloud Foundations">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Python (Basic) – HackerRank Certified</h3>
+                        <p class="cert-platform">HackerRank</p>
+                        <p class="cert-date">Completed: 27 March, 2024</p>
+                        <a href="Certification/recognized/Python(Basic)–HackerRank-Certified.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                 <!-- Recognized Certification 7 -->
+                <div class="cert-card" data-category="recognized">
+                    <div class="cert-image">
+                        <img src="images/certificates/ml_gfg_page-0001.jpg" alt="AWS Academy Cloud Foundations">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Data Analysis & Machine Learning</h3>
+                        <p class="cert-platform">GeeksForGeeks</p>
+                        <p class="cert-date">Completed: 17 January, 2024</p>
+                        <a href="Certification/recognized/Data-Analysis-&-Machine-Learning.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Participation Certificate 1 -->
+                <div class="cert-card" data-category="participation">
+                    <div class="cert-image">
+                        <img src="images/certificates/tobeadded.jpeg" alt="Hackathon Certificate">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Tech Innovate Hackathon 2023</h3>
+                        <p class="cert-platform">TechCorp</p>
+                        <p class="cert-date">Participated: June 2023</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+
+                <!-- Participation Certificate 2 -->
+                <div class="cert-card" data-category="participation">
+                    <div class="cert-image">
+                        <img src="images/certificates/tobeadded.jpeg" alt="Webinar Certificate">
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Cybersecurity Workshop</h3>
+                        <p class="cert-platform">Security Institute</p>
+                        <p class="cert-date">Attended: April 2023</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out to me for any questions or opportunities!</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <img src="icons/email.svg" alt="Email">
+                        <span>meraaz0809@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="icons/phone.svg" alt="Phone">
+                        <span>+91 8989246692</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="icons/location.svg" alt="Location">
+                        <span>Bhopal, Madhya Pradesh</span>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com/MdMeraaz08/" target="_blank" aria-label="GitHub">
+                            <img src="icons/github.svg" alt="GitHub">
+                        </a>
+                       <a href="https://www.linkedin.com/in/mohdmeraaz08" target="_blank" aria-label="LinkedIn">
+                            <img src="icons/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://x.com/MohdMeraaz08" target="_blank" aria-label="Twitter">
+                            <img src="icons/twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="mailto:meraaz0809@gmail.com" aria-label="Email">
+                            <img src="icons/email.svg" alt="Email">
+
+                        </a>
+
+                        <a href="https://www.instagram.com/mohdmeraaz08/" target="_blank" aria-label="Instagram">
+                            <img src="icons/instagram.svg" alt="Instagram">
+                        </a>
+
+                        <a href="https://buymeacoffee.com/mohdmeraaz" target="_blank" aria-label="Buy Me a Coffee">
+                            <img src="icons/buymeacoffee.svg" alt="Buy Me a Coffee">
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mohd Meraaz</h3>
+                    <p>Software Developer & Cybersecurity Enthusiast</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/MdMeraaz08/" target="_blank" aria-label="GitHub">
+                            <img src="icons/github.svg" alt="GitHub">
+                        </a>
+                       <a href="https://www.linkedin.com/in/mohdmeraaz08" target="_blank" aria-label="LinkedIn">
+                            <img src="icons/linkedin.svg" alt="LinkedIn">
+                        </a>
+                        <a href="https://x.com/MohdMeraaz08" target="_blank" aria-label="Twitter">
+                            <img src="icons/twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="mailto:meraaz0809@gmail.com" aria-label="Email">
+                            <img src="icons/email.svg" alt="Email">
+
+                        </a>
+
+                        <a href="https://www.instagram.com/mohdmeraaz08/" target="_blank" aria-label="Instagram">
+                            <img src="icons/instagram.svg" alt="Instagram">
+                        </a>
+
+                        <a href="https://buymeacoffee.com/mohdmeraaz" target="_blank" aria-label="Buy Me a Coffee">
+                            <img src="icons/buymeacoffee.svg" alt="Buy Me a Coffee">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mohd Meraaz. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <span>↑</span>
+    </button>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h3>Message Sent!</h3>
+            <p>Thank you for your message. I'll get back to you soon!</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
